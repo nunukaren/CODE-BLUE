@@ -1,3 +1,6 @@
 . color {
-  color: blue;
+  text-decoration-color: blue;
+}
+. body{
+  text-align: center;
 }
