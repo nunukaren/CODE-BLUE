@@ -25,8 +25,8 @@ body, html {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+  font-size: 20px;
+  width: 50%;
 }
 
 .tablink:hover {
@@ -35,13 +35,13 @@ body, html {
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
-  display: none;
+  color: black;
+  display: contents;
   padding: 100px 20px;
   height: 100%;
 }
 
 #Home {background-color: black;}
-#News {background-color: black;}
-#Contact {background-color: black;}
-#About {background-color: black;}
+#Original {background-color: black;}
+#Pro {background-color: black;}
+#Extra {background-color: black;}
