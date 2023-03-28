@@ -17,14 +17,29 @@
   </head>
   <title>CODE-BLUE</title>
 <body>
-  <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'Original')">CODE-BLUE Original</button>
-    <button class="tablinks" onclick="openCity(event, 'Pro')">CODE-BLUE Pro</button>
-    <button class="tablinks" onclick="openCity(event, 'Extra')">CODE-BLUE Extra</button>
+  <button class="tablink" onclick="openPage('Original', this, 'red')" id="defaultOpen">Home</button>
+  <button class="tablink" onclick="openPage('Pro', this, 'green')">News</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+  
+  <div id="Home" class="tabcontent">
+    <h3>Home</h3>
+    <p>Home is where the heart is..</p>
   </div>
+  
   <div id="Original" class="tabcontent">
     <h3>CODE-BLUE Original</h3>
-    <p>London is the capital city of England.</p>
+    <p>Some news this fine day!</p>
+  </div>
+  
+  <div id="Pro" class="tabcontent">
+    <h3>CODE-BLUE Pro</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+  </div>
+  
+  <div id="Extra" class="tabcontent">
+    <h3>CODE-BLUE Extra</h3>
+    <p>Who we are and what we do.</p>
   </div>
   <style>
     body {
