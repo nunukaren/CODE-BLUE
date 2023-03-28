@@ -3,8 +3,10 @@
 body{
   text-align: center;
   font-size: 30px;
-  font-family: Quicksand;
+  font-family:'Quicksand';
 }
-.copyrights{
+footer{
+  font-family: 'Qicksand';
+  font-size: 10px;
   text-align: center;
 }
