@@ -7,15 +7,6 @@ body{
 }
 footer{
   font-family: 'Quicksand';
-  font-size: 10px;
-  text-align: center;
-}
-
-body {
-  text-align: center;
-  font-family: Quicksand;
-}
-
-footer{
   font-size: 5px;
+  text-align: center;
 }
